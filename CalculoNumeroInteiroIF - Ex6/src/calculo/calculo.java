@@ -8,10 +8,9 @@ public class calculo {
 
         if (Leia < 0 ){
             Leia = (-1) * Leia;
-            JOptionPane.showMessageDialog(null,"O Numero Digitado eh Igual a 0 ou Maior a 0", "Comando If", JOptionPane.INFORMATION_MESSAGE);
 
         }else {
-            JOptionPane.showMessageDialog(null,"O Numero Digitado eh menor que zero!", "Comando If", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null,"O Modulo eh ", "Comando If", JOptionPane.INFORMATION_MESSAGE);
         }
 
     }
